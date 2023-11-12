@@ -49,6 +49,8 @@
 		ED7F14CF2B012F920050B5FC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14772B012F920050B5FC /* popup.js */; };
 		ED7F14E12B0130C00050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E02B0130BF0050B5FC /* jscwlib.js */; };
 		ED7F14E22B0130C00050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E02B0130BF0050B5FC /* jscwlib.js */; };
+		ED7F14E62B016F7F0050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
+		ED7F14E72B016F7F0050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +134,7 @@
 		ED7F14B02B012F920050B5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7F14B12B012F920050B5FC /* SignalSonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalSonic.entitlements; sourceTree = "<group>"; };
 		ED7F14E02B0130BF0050B5FC /* jscwlib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jscwlib.js; sourceTree = "<group>"; };
+		ED7F14E52B016F7F0050B5FC /* jscwlib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jscwlib.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,7 @@
 				ED7F14662B012F8C0050B5FC /* Icon.png */,
 				ED7F14672B012F8C0050B5FC /* Style.css */,
 				ED7F14682B012F8C0050B5FC /* Script.js */,
+				ED7F14E52B016F7F0050B5FC /* jscwlib.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -409,6 +413,7 @@
 				ED7F14B42B012F920050B5FC /* Icon.png in Resources */,
 				ED7F14872B012F920050B5FC /* LaunchScreen.storyboard in Resources */,
 				ED7F14B22B012F920050B5FC /* Main.html in Resources */,
+				ED7F14E62B016F7F0050B5FC /* jscwlib.js in Resources */,
 				ED7F14B82B012F920050B5FC /* Script.js in Resources */,
 				ED7F14BC2B012F920050B5FC /* Assets.xcassets in Resources */,
 				ED7F148A2B012F920050B5FC /* Main.storyboard in Resources */,
@@ -425,6 +430,7 @@
 				ED7F14992B012F920050B5FC /* Main.storyboard in Resources */,
 				ED7F14B92B012F920050B5FC /* Script.js in Resources */,
 				ED7F14BD2B012F920050B5FC /* Assets.xcassets in Resources */,
+				ED7F14E72B016F7F0050B5FC /* jscwlib.js in Resources */,
 				ED7F14B32B012F920050B5FC /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

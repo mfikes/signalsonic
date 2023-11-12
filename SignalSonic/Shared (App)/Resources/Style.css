@@ -1,13 +1,10 @@
 * {
-    -webkit-user-select: none;
     -webkit-user-drag: none;
     cursor: default;
 }
 
 :root {
     color-scheme: light dark;
-
-    --spacing: 20px;
 }
 
 html {
@@ -26,6 +23,8 @@ body {
 
     font: -apple-system-short-body;
     text-align: center;
+    
+    padding: 5px;
 }
 
 body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
@@ -56,6 +55,60 @@ body.state-off :is(.state-on, .state-unknown) {
     display: none;
 }
 
+p.platform-mac {
+    font-size: 0.9em;
+}
+
+
 button {
     font-size: 1em;
+}
+
+button#playButton {
+    margin-bottom: 10px;
+}
+
+textarea#textInput {
+    width: calc(100% - 20px); /* Adjusts width to take full width of the body minus padding */
+    max-width: 100%; /* Ensures that textarea does not exceed the width of its container */
+    margin: 0 auto; /* Centers the textarea */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    padding: 8px; /* Adds some padding inside the textarea for better text visibility */
+}
+
+/* You may also want to adjust the margin around the textarea for better spacing */
+.text-input-group {
+    margin: 15px 0;
+}
+
+.control-group {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.slider-label {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.slider-value {
+    width: 150px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+span {
+    font-feature-settings: "tnum";
 }
