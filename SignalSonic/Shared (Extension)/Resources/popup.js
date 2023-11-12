@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function formatLabel(settingKey, value) {
         if (settingKey === 'volume') {
-            return value + '%';
+            return Math.round(value) + '%';
         } else if (settingKey === 'freq') {
             return value + ' Hz';
         } else if (settingKey === 'eff') {
