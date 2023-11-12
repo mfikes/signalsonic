@@ -1,10 +1,10 @@
 {
     "extension_name": {
         "message": "SignalSonic",
-        "description": "The display name for the extension."
+        "description": "SignalSonic Morse code player."
     },
     "extension_description": {
-        "message": "This is SignalSonic. You should tell us what your extension does here.",
-        "description": "Description of what the extension does."
+        "message": "This is SignalSonic. Play Morse code for selected text in Safari.",
+        "description": "With any text selected in Safari, opening the extension plays that text as Morse code."
     }
 }
