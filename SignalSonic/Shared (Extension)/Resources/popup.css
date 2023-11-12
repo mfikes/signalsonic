@@ -3,15 +3,46 @@
 }
 
 body {
-    width: 500px;
+    width: 350px;
     padding: 10px;
-
     font-family: system-ui;
     text-align: center;
 }
 
+.message {
+    margin: 15px;
+}
+
+.control-group {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.slider-label {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.slider-value {
+    width: 150px;
+    text-align: left;
+    margin-left: 10px;
+}
+
 span {
-    font-feature-settings: "tnum"; /* Enables tabular numbers */
+    font-feature-settings: "tnum";
 }
 
 @media (prefers-color-scheme: dark) {

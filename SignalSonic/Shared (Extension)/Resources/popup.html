@@ -8,20 +8,40 @@
 </head>
 <body>
 
-    <strong>SignalSonic</strong>
-    <div id="message"></div>
+    <strong><em>SignalSonic</em></strong>
+    <div id="message" class="message"></div>
     
-    <input type="range" id="wpmSlider" min="5" max="40" value="20">
-    <span id="wpmValue">20 WPM</span><br>
-        
-    <input type="range" id="effSlider" min="5" max="40" value="20">
-    <span id="effValue">20 Eff</span><br>
-            
-    <input type="range" id="freqSlider" min="400" max="900" step="10" value="700">
-    <span id="freqValue">700 Hz</span><br>
-                
-    <input type="range" id="volumeSlider" min="0" max="100" value="50">
-    <span id="volumeValue">50%</span><br>
+    <div class="control-group">
+        <label for="wpmSlider" class="slider-label">Character Speed:</label>
+        <div class="slider-container">
+            <input type="range" id="wpmSlider" min="5" max="40" value="20">
+            <span id="wpmValue" class="slider-value">20 WPM</span>
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <label for="effSlider" class="slider-label">Effective Speed:</label>
+        <div class="slider-container">
+            <input type="range" id="effSlider" min="5" max="40" value="20">
+            <span id="effValue" class="slider-value">20 FWPM</span>
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <label for="freqSlider" class="slider-label">Tone:</label>
+        <div class="slider-container">
+            <input type="range" id="freqSlider" min="400" max="900" step="10" value="700">
+            <span id="freqValue" class="slider-value">700 Hz</span>
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <label for="volumeSlider" class="slider-label">Volume:</label>
+        <div class="slider-container">
+            <input type="range" id="volumeSlider" min="0" max="100" value="50">
+            <span id="volumeValue" class="slider-value">50%</span>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (settingKey === 'wpm' && value < parseInt(effSlider.value, 10)) {
                 effSlider.value = value;
                 localStorage.setItem('eff', value);
-                document.getElementById('effValue').textContent = formatLabel('eff', value);
+                document.getElementById('effValue').textContent = formatLabel('fwpm', value);
                 m.setEff(value);
             } else if (settingKey === 'eff' && value > parseInt(wpmSlider.value, 10)) {
                 wpmSlider.value = value;
@@ -53,8 +53,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function formatLabel(settingKey, value) {
-        return settingKey === 'volume' ? value + '%' : (settingKey === 'freq' ? value + ' Hz' : value + ' ' + settingKey.toUpperCase());
+        if (settingKey === 'volume') {
+            return value + '%';
+        } else if (settingKey === 'freq') {
+            return value + ' Hz';
+        } else if (settingKey === 'eff') {
+            return value + ' FWPM';
+        } else {
+            return value + ' ' + settingKey.toUpperCase();
+        }
     }
+
 
     function restartPlayback() {
         m.stop();
