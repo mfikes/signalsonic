@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7F14812B012F920050B5FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F14802B012F920050B5FC /* AppDelegate.m */; };
+		ED7F14842B012F920050B5FC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F14832B012F920050B5FC /* SceneDelegate.m */; };
+		ED7F14872B012F920050B5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14852B012F920050B5FC /* LaunchScreen.storyboard */; };
+		ED7F148A2B012F920050B5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14882B012F920050B5FC /* Main.storyboard */; };
+		ED7F148D2B012F920050B5FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F148C2B012F920050B5FC /* main.m */; };
+		ED7F14962B012F920050B5FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F14952B012F920050B5FC /* AppDelegate.m */; };
+		ED7F14992B012F920050B5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14972B012F920050B5FC /* Main.storyboard */; };
+		ED7F149B2B012F920050B5FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F149A2B012F920050B5FC /* main.m */; };
+		ED7F14A22B012F920050B5FC /* SignalSonic Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ED7F14A12B012F920050B5FC /* SignalSonic Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED7F14AC2B012F920050B5FC /* SignalSonic Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ED7F14AB2B012F920050B5FC /* SignalSonic Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED7F14B22B012F920050B5FC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14642B012F8C0050B5FC /* Main.html */; };
+		ED7F14B32B012F920050B5FC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14642B012F8C0050B5FC /* Main.html */; };
+		ED7F14B42B012F920050B5FC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14662B012F8C0050B5FC /* Icon.png */; };
+		ED7F14B52B012F920050B5FC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14662B012F8C0050B5FC /* Icon.png */; };
+		ED7F14B62B012F920050B5FC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14672B012F8C0050B5FC /* Style.css */; };
+		ED7F14B72B012F920050B5FC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14672B012F8C0050B5FC /* Style.css */; };
+		ED7F14B82B012F920050B5FC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14682B012F8C0050B5FC /* Script.js */; };
+		ED7F14B92B012F920050B5FC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14682B012F8C0050B5FC /* Script.js */; };
+		ED7F14BA2B012F920050B5FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F146A2B012F8C0050B5FC /* ViewController.m */; };
+		ED7F14BB2B012F920050B5FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F146A2B012F8C0050B5FC /* ViewController.m */; };
+		ED7F14BC2B012F920050B5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7F146B2B012F910050B5FC /* Assets.xcassets */; };
+		ED7F14BD2B012F920050B5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7F146B2B012F910050B5FC /* Assets.xcassets */; };
+		ED7F14BE2B012F920050B5FC /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F146E2B012F920050B5FC /* SafariWebExtensionHandler.m */; };
+		ED7F14BF2B012F920050B5FC /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7F146E2B012F920050B5FC /* SafariWebExtensionHandler.m */; };
+		ED7F14C02B012F920050B5FC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14702B012F920050B5FC /* _locales */; };
+		ED7F14C12B012F920050B5FC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14702B012F920050B5FC /* _locales */; };
+		ED7F14C22B012F920050B5FC /* images in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14712B012F920050B5FC /* images */; };
+		ED7F14C32B012F920050B5FC /* images in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14712B012F920050B5FC /* images */; };
+		ED7F14C42B012F920050B5FC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14722B012F920050B5FC /* manifest.json */; };
+		ED7F14C52B012F920050B5FC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14722B012F920050B5FC /* manifest.json */; };
+		ED7F14C62B012F920050B5FC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14732B012F920050B5FC /* background.js */; };
+		ED7F14C72B012F920050B5FC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14732B012F920050B5FC /* background.js */; };
+		ED7F14C82B012F920050B5FC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14742B012F920050B5FC /* content.js */; };
+		ED7F14C92B012F920050B5FC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14742B012F920050B5FC /* content.js */; };
+		ED7F14CA2B012F920050B5FC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14752B012F920050B5FC /* popup.html */; };
+		ED7F14CB2B012F920050B5FC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14752B012F920050B5FC /* popup.html */; };
+		ED7F14CC2B012F920050B5FC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14762B012F920050B5FC /* popup.css */; };
+		ED7F14CD2B012F920050B5FC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14762B012F920050B5FC /* popup.css */; };
+		ED7F14CE2B012F920050B5FC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14772B012F920050B5FC /* popup.js */; };
+		ED7F14CF2B012F920050B5FC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14772B012F920050B5FC /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7F14A32B012F920050B5FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7F145E2B012F8C0050B5FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7F14A02B012F920050B5FC;
+			remoteInfo = "SignalSonic Extension (iOS)";
+		};
+		ED7F14AD2B012F920050B5FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7F145E2B012F8C0050B5FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7F14AA2B012F920050B5FC;
+			remoteInfo = "SignalSonic Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED7F14D52B012F920050B5FC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED7F14A22B012F920050B5FC /* SignalSonic Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F14DC2B012F920050B5FC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED7F14AC2B012F920050B5FC /* SignalSonic Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED7F14652B012F8C0050B5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		ED7F14662B012F8C0050B5FC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ED7F14672B012F8C0050B5FC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		ED7F14682B012F8C0050B5FC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		ED7F14692B012F8C0050B5FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED7F146A2B012F8C0050B5FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED7F146B2B012F910050B5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7F146D2B012F910050B5FC /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		ED7F146E2B012F920050B5FC /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		ED7F14702B012F920050B5FC /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		ED7F14712B012F920050B5FC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		ED7F14722B012F920050B5FC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		ED7F14732B012F920050B5FC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		ED7F14742B012F920050B5FC /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		ED7F14752B012F920050B5FC /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		ED7F14762B012F920050B5FC /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		ED7F14772B012F920050B5FC /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		ED7F147C2B012F920050B5FC /* SignalSonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalSonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F147F2B012F920050B5FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7F14802B012F920050B5FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7F14822B012F920050B5FC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED7F14832B012F920050B5FC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED7F14862B012F920050B5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED7F14892B012F920050B5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED7F148B2B012F920050B5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7F148C2B012F920050B5FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7F14922B012F920050B5FC /* SignalSonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalSonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F14942B012F920050B5FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7F14952B012F920050B5FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7F14982B012F920050B5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED7F149A2B012F920050B5FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7F149C2B012F920050B5FC /* SignalSonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalSonic.entitlements; sourceTree = "<group>"; };
+		ED7F14A12B012F920050B5FC /* SignalSonic Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SignalSonic Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F14A62B012F920050B5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7F14AB2B012F920050B5FC /* SignalSonic Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SignalSonic Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F14B02B012F920050B5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7F14B12B012F920050B5FC /* SignalSonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalSonic.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7F14792B012F920050B5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F148F2B012F920050B5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F149E2B012F920050B5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F14A82B012F920050B5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7F145D2B012F8C0050B5FC = {
+			isa = PBXGroup;
+			children = (
+				ED7F14622B012F8C0050B5FC /* Shared (App) */,
+				ED7F146C2B012F910050B5FC /* Shared (Extension) */,
+				ED7F147E2B012F920050B5FC /* iOS (App) */,
+				ED7F14932B012F920050B5FC /* macOS (App) */,
+				ED7F14A52B012F920050B5FC /* iOS (Extension) */,
+				ED7F14AF2B012F920050B5FC /* macOS (Extension) */,
+				ED7F147D2B012F920050B5FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7F14622B012F8C0050B5FC /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F14692B012F8C0050B5FC /* ViewController.h */,
+				ED7F146A2B012F8C0050B5FC /* ViewController.m */,
+				ED7F146B2B012F910050B5FC /* Assets.xcassets */,
+				ED7F14632B012F8C0050B5FC /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		ED7F14632B012F8C0050B5FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F14642B012F8C0050B5FC /* Main.html */,
+				ED7F14662B012F8C0050B5FC /* Icon.png */,
+				ED7F14672B012F8C0050B5FC /* Style.css */,
+				ED7F14682B012F8C0050B5FC /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED7F146C2B012F910050B5FC /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F146D2B012F910050B5FC /* SafariWebExtensionHandler.h */,
+				ED7F146E2B012F920050B5FC /* SafariWebExtensionHandler.m */,
+				ED7F146F2B012F920050B5FC /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		ED7F146F2B012F920050B5FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F14702B012F920050B5FC /* _locales */,
+				ED7F14712B012F920050B5FC /* images */,
+				ED7F14722B012F920050B5FC /* manifest.json */,
+				ED7F14732B012F920050B5FC /* background.js */,
+				ED7F14742B012F920050B5FC /* content.js */,
+				ED7F14752B012F920050B5FC /* popup.html */,
+				ED7F14762B012F920050B5FC /* popup.css */,
+				ED7F14772B012F920050B5FC /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED7F147D2B012F920050B5FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F147C2B012F920050B5FC /* SignalSonic.app */,
+				ED7F14922B012F920050B5FC /* SignalSonic.app */,
+				ED7F14A12B012F920050B5FC /* SignalSonic Extension.appex */,
+				ED7F14AB2B012F920050B5FC /* SignalSonic Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7F147E2B012F920050B5FC /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F147F2B012F920050B5FC /* AppDelegate.h */,
+				ED7F14802B012F920050B5FC /* AppDelegate.m */,
+				ED7F14822B012F920050B5FC /* SceneDelegate.h */,
+				ED7F14832B012F920050B5FC /* SceneDelegate.m */,
+				ED7F14852B012F920050B5FC /* LaunchScreen.storyboard */,
+				ED7F14882B012F920050B5FC /* Main.storyboard */,
+				ED7F148B2B012F920050B5FC /* Info.plist */,
+				ED7F148C2B012F920050B5FC /* main.m */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		ED7F14932B012F920050B5FC /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F14942B012F920050B5FC /* AppDelegate.h */,
+				ED7F14952B012F920050B5FC /* AppDelegate.m */,
+				ED7F14972B012F920050B5FC /* Main.storyboard */,
+				ED7F149A2B012F920050B5FC /* main.m */,
+				ED7F149C2B012F920050B5FC /* SignalSonic.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		ED7F14A52B012F920050B5FC /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F14A62B012F920050B5FC /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ED7F14AF2B012F920050B5FC /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F14B02B012F920050B5FC /* Info.plist */,
+				ED7F14B12B012F920050B5FC /* SignalSonic.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7F147B2B012F920050B5FC /* SignalSonic (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F14D62B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic (iOS)" */;
+			buildPhases = (
+				ED7F14782B012F920050B5FC /* Sources */,
+				ED7F14792B012F920050B5FC /* Frameworks */,
+				ED7F147A2B012F920050B5FC /* Resources */,
+				ED7F14D52B012F920050B5FC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7F14A42B012F920050B5FC /* PBXTargetDependency */,
+			);
+			name = "SignalSonic (iOS)";
+			productName = "SignalSonic (iOS)";
+			productReference = ED7F147C2B012F920050B5FC /* SignalSonic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7F14912B012F920050B5FC /* SignalSonic (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F14DD2B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic (macOS)" */;
+			buildPhases = (
+				ED7F148E2B012F920050B5FC /* Sources */,
+				ED7F148F2B012F920050B5FC /* Frameworks */,
+				ED7F14902B012F920050B5FC /* Resources */,
+				ED7F14DC2B012F920050B5FC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7F14AE2B012F920050B5FC /* PBXTargetDependency */,
+			);
+			name = "SignalSonic (macOS)";
+			productName = "SignalSonic (macOS)";
+			productReference = ED7F14922B012F920050B5FC /* SignalSonic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7F14A02B012F920050B5FC /* SignalSonic Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F14D22B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic Extension (iOS)" */;
+			buildPhases = (
+				ED7F149D2B012F920050B5FC /* Sources */,
+				ED7F149E2B012F920050B5FC /* Frameworks */,
+				ED7F149F2B012F920050B5FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SignalSonic Extension (iOS)";
+			productName = "SignalSonic Extension (iOS)";
+			productReference = ED7F14A12B012F920050B5FC /* SignalSonic Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		ED7F14AA2B012F920050B5FC /* SignalSonic Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F14D92B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic Extension (macOS)" */;
+			buildPhases = (
+				ED7F14A72B012F920050B5FC /* Sources */,
+				ED7F14A82B012F920050B5FC /* Frameworks */,
+				ED7F14A92B012F920050B5FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SignalSonic Extension (macOS)";
+			productName = "SignalSonic Extension (macOS)";
+			productReference = ED7F14AB2B012F920050B5FC /* SignalSonic Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7F145E2B012F8C0050B5FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ED7F147B2B012F920050B5FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ED7F14912B012F920050B5FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ED7F14A02B012F920050B5FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ED7F14AA2B012F920050B5FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = ED7F14612B012F8C0050B5FC /* Build configuration list for PBXProject "SignalSonic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7F145D2B012F8C0050B5FC;
+			productRefGroup = ED7F147D2B012F920050B5FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7F147B2B012F920050B5FC /* SignalSonic (iOS) */,
+				ED7F14912B012F920050B5FC /* SignalSonic (macOS) */,
+				ED7F14A02B012F920050B5FC /* SignalSonic Extension (iOS) */,
+				ED7F14AA2B012F920050B5FC /* SignalSonic Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7F147A2B012F920050B5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14B42B012F920050B5FC /* Icon.png in Resources */,
+				ED7F14872B012F920050B5FC /* LaunchScreen.storyboard in Resources */,
+				ED7F14B22B012F920050B5FC /* Main.html in Resources */,
+				ED7F14B82B012F920050B5FC /* Script.js in Resources */,
+				ED7F14BC2B012F920050B5FC /* Assets.xcassets in Resources */,
+				ED7F148A2B012F920050B5FC /* Main.storyboard in Resources */,
+				ED7F14B62B012F920050B5FC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F14902B012F920050B5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14B52B012F920050B5FC /* Icon.png in Resources */,
+				ED7F14B72B012F920050B5FC /* Style.css in Resources */,
+				ED7F14992B012F920050B5FC /* Main.storyboard in Resources */,
+				ED7F14B92B012F920050B5FC /* Script.js in Resources */,
+				ED7F14BD2B012F920050B5FC /* Assets.xcassets in Resources */,
+				ED7F14B32B012F920050B5FC /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F149F2B012F920050B5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14C62B012F920050B5FC /* background.js in Resources */,
+				ED7F14CC2B012F920050B5FC /* popup.css in Resources */,
+				ED7F14CA2B012F920050B5FC /* popup.html in Resources */,
+				ED7F14C22B012F920050B5FC /* images in Resources */,
+				ED7F14C42B012F920050B5FC /* manifest.json in Resources */,
+				ED7F14C02B012F920050B5FC /* _locales in Resources */,
+				ED7F14C82B012F920050B5FC /* content.js in Resources */,
+				ED7F14CE2B012F920050B5FC /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F14A92B012F920050B5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14C72B012F920050B5FC /* background.js in Resources */,
+				ED7F14CD2B012F920050B5FC /* popup.css in Resources */,
+				ED7F14CB2B012F920050B5FC /* popup.html in Resources */,
+				ED7F14C32B012F920050B5FC /* images in Resources */,
+				ED7F14C52B012F920050B5FC /* manifest.json in Resources */,
+				ED7F14C12B012F920050B5FC /* _locales in Resources */,
+				ED7F14C92B012F920050B5FC /* content.js in Resources */,
+				ED7F14CF2B012F920050B5FC /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7F14782B012F920050B5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14812B012F920050B5FC /* AppDelegate.m in Sources */,
+				ED7F148D2B012F920050B5FC /* main.m in Sources */,
+				ED7F14BA2B012F920050B5FC /* ViewController.m in Sources */,
+				ED7F14842B012F920050B5FC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F148E2B012F920050B5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14BB2B012F920050B5FC /* ViewController.m in Sources */,
+				ED7F149B2B012F920050B5FC /* main.m in Sources */,
+				ED7F14962B012F920050B5FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F149D2B012F920050B5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14BE2B012F920050B5FC /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F14A72B012F920050B5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F14BF2B012F920050B5FC /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7F14A42B012F920050B5FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7F14A02B012F920050B5FC /* SignalSonic Extension (iOS) */;
+			targetProxy = ED7F14A32B012F920050B5FC /* PBXContainerItemProxy */;
+		};
+		ED7F14AE2B012F920050B5FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7F14AA2B012F920050B5FC /* SignalSonic Extension (macOS) */;
+			targetProxy = ED7F14AD2B012F920050B5FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7F14642B012F8C0050B5FC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F14652B012F8C0050B5FC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		ED7F14852B012F920050B5FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F14862B012F920050B5FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7F14882B012F920050B5FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F14892B012F920050B5FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7F14972B012F920050B5FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F14982B012F920050B5FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7F14D02B012F920050B5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		ED7F14D12B012F920050B5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		ED7F14D32B012F920050B5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SignalSonic Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic.Extension;
+				PRODUCT_NAME = "SignalSonic Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7F14D42B012F920050B5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SignalSonic Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic.Extension;
+				PRODUCT_NAME = "SignalSonic Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7F14D72B012F920050B5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SignalSonic;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic;
+				PRODUCT_NAME = SignalSonic;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7F14D82B012F920050B5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SignalSonic;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic;
+				PRODUCT_NAME = SignalSonic;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7F14DA2B012F920050B5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SignalSonic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SignalSonic Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic.Extension;
+				PRODUCT_NAME = "SignalSonic Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		ED7F14DB2B012F920050B5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SignalSonic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SignalSonic Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic.Extension;
+				PRODUCT_NAME = "SignalSonic Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		ED7F14DE2B012F920050B5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SignalSonic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SignalSonic;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic;
+				PRODUCT_NAME = SignalSonic;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		ED7F14DF2B012F920050B5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SignalSonic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SignalSonic;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikesfarm.SignalSonic;
+				PRODUCT_NAME = SignalSonic;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7F14612B012F8C0050B5FC /* Build configuration list for PBXProject "SignalSonic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F14D02B012F920050B5FC /* Debug */,
+				ED7F14D12B012F920050B5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F14D22B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F14D32B012F920050B5FC /* Debug */,
+				ED7F14D42B012F920050B5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F14D62B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F14D72B012F920050B5FC /* Debug */,
+				ED7F14D82B012F920050B5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F14D92B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F14DA2B012F920050B5FC /* Debug */,
+				ED7F14DB2B012F920050B5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F14DD2B012F920050B5FC /* Build configuration list for PBXNativeTarget "SignalSonic (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F14DE2B012F920050B5FC /* Debug */,
+				ED7F14DF2B012F920050B5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7F145E2B012F8C0050B5FC /* Project object */;
+}
