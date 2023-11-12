@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     m.setEff(20);
                     m.setFreq(600);
                     m.setText(response.data);
-                    m.renderPlayer('player', m);
                     m.play();
                 } else {
                     document.getElementById('message').textContent = "No text selected. Please select text on the page to play it as Morse code.";
