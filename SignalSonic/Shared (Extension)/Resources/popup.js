@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var m = new jscw();
+    m.setStartDelay(0.2);
     var wpmSlider = setupSlider('wpm', 20, m.setWpm.bind(m));
     var effSlider = setupSlider('eff', 20, m.setEff.bind(m));
     setupSlider('freq', 600, m.setFreq.bind(m));

@@ -1,4 +1,5 @@
 var m = new jscw();
+m.setStartDelay(0.2);
 
 document.addEventListener('DOMContentLoaded', function() {
     var wpmSlider = setupSlider('wpm', 20, m.setWpm.bind(m));
