@@ -115,3 +115,7 @@ input[type="range"] {
 span {
     font-feature-settings: "tnum";
 }
+
+p {
+    width: 65%; /* Sets the width of paragraphs to 65% of their container's width */
+}
