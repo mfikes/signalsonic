@@ -76,7 +76,7 @@ textarea#textInput {
     padding: 8px; /* Adds some padding inside the textarea for better text visibility */
     font-size: 1em; /* Adjusts the font size to be similar to the rest of the UI */
     font-family: -apple-system-short-body, sans-serif; /* Sets the font family consistent with the rest of the UI */
-
+    resize: none; /* Disables resizing of the textarea */
 }
 
 /* You may also want to adjust the margin around the textarea for better spacing */
