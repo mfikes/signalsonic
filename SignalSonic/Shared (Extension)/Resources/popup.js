@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
+    var platform;
+    
+    // Check the user agent string to determine the platform
+    var userAgent = navigator.userAgent;
+    if (userAgent.match(/Macintosh/)) {
+        platform = 'platform-mac';
+    } else if (userAgent.match(/iPhone|iPad|iPod/)) {
+        platform = 'platform-ios';
+    } else {
+        // Default platform if none of the above conditions match
+        platform = 'platform-unknown';
+    }
+    
+    // Apply the platform class to the body element
+    document.body.classList.add(platform);
+    
     // Query the active tab
     browser.tabs.query({active: true, currentWindow: true}, function(tabs) {
         if (tabs[0]) {

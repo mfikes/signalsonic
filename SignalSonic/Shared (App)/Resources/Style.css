@@ -65,7 +65,13 @@ button {
 }
 
 button#playButton {
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body.platform-ios button#playButton {
+    margin-top: 8px;
+    margin-bottom: 15px;
 }
 
 textarea#textInput {
@@ -88,6 +94,11 @@ textarea#textInput {
     display: flex;
     justify-content: center;
     margin: 5px 0;
+}
+
+body.platform-ios .control-group {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .slider-label {

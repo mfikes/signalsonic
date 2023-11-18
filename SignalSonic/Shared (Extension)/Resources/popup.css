@@ -19,6 +19,11 @@ body {
     margin: 10px 0;
 }
 
+body.platform-ios .control-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .slider-label {
     width: 150px;
     text-align: right;
