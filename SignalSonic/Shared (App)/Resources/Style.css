@@ -55,7 +55,7 @@ body.state-off :is(.state-on, .state-unknown) {
     display: none;
 }
 
-p.platform-mac {
+p {
     font-size: 0.9em;
 }
 
