@@ -47,10 +47,10 @@
 		ED7F14CD2B012F920050B5FC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14762B012F920050B5FC /* popup.css */; };
 		ED7F14CE2B012F920050B5FC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14772B012F920050B5FC /* popup.js */; };
 		ED7F14CF2B012F920050B5FC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14772B012F920050B5FC /* popup.js */; };
-		ED7F14E12B0130C00050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E02B0130BF0050B5FC /* jscwlib.js */; };
-		ED7F14E22B0130C00050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E02B0130BF0050B5FC /* jscwlib.js */; };
 		ED7F14E62B016F7F0050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
 		ED7F14E72B016F7F0050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
+		EDF6E2F82B093376009CFC03 /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
+		EDF6E2F92B093377009CFC03 /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,7 +133,6 @@
 		ED7F14AB2B012F920050B5FC /* SignalSonic Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SignalSonic Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7F14B02B012F920050B5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7F14B12B012F920050B5FC /* SignalSonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalSonic.entitlements; sourceTree = "<group>"; };
-		ED7F14E02B0130BF0050B5FC /* jscwlib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jscwlib.js; sourceTree = "<group>"; };
 		ED7F14E52B016F7F0050B5FC /* jscwlib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jscwlib.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +171,7 @@
 		ED7F145D2B012F8C0050B5FC = {
 			isa = PBXGroup;
 			children = (
+				EDF6E2F72B09333E009CFC03 /* Shared */,
 				ED7F14622B012F8C0050B5FC /* Shared (App) */,
 				ED7F146C2B012F910050B5FC /* Shared (Extension) */,
 				ED7F147E2B012F920050B5FC /* iOS (App) */,
@@ -200,7 +200,6 @@
 				ED7F14662B012F8C0050B5FC /* Icon.png */,
 				ED7F14672B012F8C0050B5FC /* Style.css */,
 				ED7F14682B012F8C0050B5FC /* Script.js */,
-				ED7F14E52B016F7F0050B5FC /* jscwlib.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -226,7 +225,6 @@
 				ED7F14752B012F920050B5FC /* popup.html */,
 				ED7F14762B012F920050B5FC /* popup.css */,
 				ED7F14772B012F920050B5FC /* popup.js */,
-				ED7F14E02B0130BF0050B5FC /* jscwlib.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -284,6 +282,14 @@
 				ED7F14B12B012F920050B5FC /* SignalSonic.entitlements */,
 			);
 			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		EDF6E2F72B09333E009CFC03 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F14E52B016F7F0050B5FC /* jscwlib.js */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,7 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7F14C62B012F920050B5FC /* background.js in Resources */,
-				ED7F14E12B0130C00050B5FC /* jscwlib.js in Resources */,
+				EDF6E2F82B093376009CFC03 /* jscwlib.js in Resources */,
 				ED7F14CC2B012F920050B5FC /* popup.css in Resources */,
 				ED7F14CA2B012F920050B5FC /* popup.html in Resources */,
 				ED7F14C22B012F920050B5FC /* images in Resources */,
@@ -456,7 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7F14C72B012F920050B5FC /* background.js in Resources */,
-				ED7F14E22B0130C00050B5FC /* jscwlib.js in Resources */,
+				EDF6E2F92B093377009CFC03 /* jscwlib.js in Resources */,
 				ED7F14CD2B012F920050B5FC /* popup.css in Resources */,
 				ED7F14CB2B012F920050B5FC /* popup.html in Resources */,
 				ED7F14C32B012F920050B5FC /* images in Resources */,
