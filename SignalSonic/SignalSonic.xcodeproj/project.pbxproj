@@ -51,6 +51,10 @@
 		ED7F14E72B016F7F0050B5FC /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
 		EDF6E2F82B093376009CFC03 /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
 		EDF6E2F92B093377009CFC03 /* jscwlib.js in Resources */ = {isa = PBXBuildFile; fileRef = ED7F14E52B016F7F0050B5FC /* jscwlib.js */; };
+		EDF6E2FB2B09362E009CFC03 /* logic.js in Resources */ = {isa = PBXBuildFile; fileRef = EDF6E2FA2B09362E009CFC03 /* logic.js */; };
+		EDF6E2FC2B09362E009CFC03 /* logic.js in Resources */ = {isa = PBXBuildFile; fileRef = EDF6E2FA2B09362E009CFC03 /* logic.js */; };
+		EDF6E2FD2B09362E009CFC03 /* logic.js in Resources */ = {isa = PBXBuildFile; fileRef = EDF6E2FA2B09362E009CFC03 /* logic.js */; };
+		EDF6E2FE2B09362E009CFC03 /* logic.js in Resources */ = {isa = PBXBuildFile; fileRef = EDF6E2FA2B09362E009CFC03 /* logic.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +138,7 @@
 		ED7F14B02B012F920050B5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7F14B12B012F920050B5FC /* SignalSonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignalSonic.entitlements; sourceTree = "<group>"; };
 		ED7F14E52B016F7F0050B5FC /* jscwlib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jscwlib.js; sourceTree = "<group>"; };
+		EDF6E2FA2B09362E009CFC03 /* logic.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = logic.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +292,7 @@
 		EDF6E2F72B09333E009CFC03 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				EDF6E2FA2B09362E009CFC03 /* logic.js */,
 				ED7F14E52B016F7F0050B5FC /* jscwlib.js */,
 			);
 			path = Shared;
@@ -422,6 +428,7 @@
 				ED7F14E62B016F7F0050B5FC /* jscwlib.js in Resources */,
 				ED7F14B82B012F920050B5FC /* Script.js in Resources */,
 				ED7F14BC2B012F920050B5FC /* Assets.xcassets in Resources */,
+				EDF6E2FB2B09362E009CFC03 /* logic.js in Resources */,
 				ED7F148A2B012F920050B5FC /* Main.storyboard in Resources */,
 				ED7F14B62B012F920050B5FC /* Style.css in Resources */,
 			);
@@ -432,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7F14B52B012F920050B5FC /* Icon.png in Resources */,
+				EDF6E2FC2B09362E009CFC03 /* logic.js in Resources */,
 				ED7F14B72B012F920050B5FC /* Style.css in Resources */,
 				ED7F14992B012F920050B5FC /* Main.storyboard in Resources */,
 				ED7F14B92B012F920050B5FC /* Script.js in Resources */,
@@ -454,6 +462,7 @@
 				ED7F14C02B012F920050B5FC /* _locales in Resources */,
 				ED7F14C82B012F920050B5FC /* content.js in Resources */,
 				ED7F14CE2B012F920050B5FC /* popup.js in Resources */,
+				EDF6E2FD2B09362E009CFC03 /* logic.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +479,7 @@
 				ED7F14C12B012F920050B5FC /* _locales in Resources */,
 				ED7F14C92B012F920050B5FC /* content.js in Resources */,
 				ED7F14CF2B012F920050B5FC /* popup.js in Resources */,
+				EDF6E2FE2B09362E009CFC03 /* logic.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
